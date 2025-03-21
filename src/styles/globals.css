@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-purple: #b026ff;
+  --neon-blue: #4d4dff;
+  --neon-pink: #ff26b0;
+  --cyber-green: #00ff9d;
+  --dark-bg: #0a0a0f;
+  --space-gray: #1a1a2e;
+}
+
+body {
+  background: var(--dark-bg);
+  color: white;
+} 
