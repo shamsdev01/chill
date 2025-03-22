@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import Navbar from "@/components/layout/Navbar";
-// import Navbar from "@/components/layout/Navbar";
+import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/footer";
 import MusicPlayer from '@/components/common/MusicPlayer'
 
@@ -27,7 +26,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        {/* <Navbar /> */}
+        <Navbar />
         <main>{children}</main>
         <Footer />
         <MusicPlayer />
